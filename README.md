@@ -1,38 +1,41 @@
+# Preview
+
+과제 제출과 공지를 위해 만드는 sveltekit 기반 서비스입니다.
+
 # create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+이 프로젝트는 create-svelte 를 기반으로 합니다. [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## 프로젝트 생성
 
 ```bash
-# create a new project in the current directory
+# 현재 디렉토리에 새로운 Svelte 프로젝트 만들기
 npm create svelte@latest
 
-# create a new project in my-app
+# 프로젝트 이름을 my-app 으로 만들기
 npm create svelte@latest my-app
 ```
 
-## Developing
+## 미리보기
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+미리보기 서버 열기
 
 ```bash
+# npm, pnpm, yarn
+npm install
+
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# 새 브라우저 탭에 서버 열기
 npm run dev -- --open
 ```
 
-## Building
+## 배포
 
-To create a production version of your app:
+프로젝트 배포
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> 프로젝트 배포를 할려면 [adapter](https://kit.svelte.dev/docs/adapters) 를 설치해야 할 수도 있습니다.
