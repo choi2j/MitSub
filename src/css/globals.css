@@ -1,0 +1,166 @@
+:root {
+	/* default colors */
+	--whit: #ffffff;
+	--gray: #414657;
+	--blck: #333333;
+
+	/* primary colors */
+	--orng: #ff8754;
+	--orngd: #ff8754e6;
+	--blue: #5465ff;
+	--blued: #5465ffe6;
+
+	/* opacity */
+	--whit50: #ffffff80;
+	--whit20: #ffffff33;
+	--dark50: #33333380;
+	--dark20: #33333333;
+
+	/* font sizes */
+	--tbigx: 3rem;
+	--tbig: 2rem;
+	--tmid: 1.5rem;
+	--tsml: 1rem;
+	--tsmlx: 0.9rem;
+
+	/* font weights */
+	--bold: 700;
+	--regu: 400;
+	--lght: 300;
+}
+
+.test {
+	margin: 1rem;
+}
+
+/* color */
+.whit-color {
+	color: var(--whit);
+}
+.blck-color {
+	color: var(--blck);
+}
+.blue-color {
+	color: var(--blue);
+}
+.orng-color {
+	color: var(--orng);
+}
+
+/* background-color */
+.whit-back {
+	background-color: var(--whit);
+}
+.blck-back {
+	background-color: var(--blck);
+}
+.blue-back {
+	background-color: var(--blue);
+}
+.orng-back {
+	background-color: var(--orng);
+}
+
+/* button */
+button {
+	border-radius: 4px;
+	color: var(--whit);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	box-shadow: #333333 0px 4px 4px;
+	transition: box-shadow ease-in-out 0.1s;
+}
+button:hover {
+	box-shadow: none;
+}
+.btn-big {
+	font-size: var(--tbig);
+	padding: 2rem 6rem;
+}
+.btn-mid {
+	font-size: var(--tmid);
+	padding: 2rem 6rem;
+}
+.btn-sml {
+	font-size: var(--sml);
+	padding: 1rem 6rem;
+}
+.btn-smlx {
+	font-size: var(--smlx);
+	padding: 1rem 3rem;
+}
+
+/* input */
+input {
+	color: var(--whit);
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	box-shadow: #333333 0px 4px 4px;
+}
+.inp {
+	background-color: var(--whit20);
+	color: var(--whit);
+	font-weight: var(--lght);
+	font-size: var(--tsmlx);
+	padding: 0.5rem;
+	width: 20rem;
+}
+
+/* paragraph */
+p {
+	color: var(--whit);
+}
+.p-bigxb {
+	font-weight: var(--bold);
+	font-size: var(--tbigx);
+}
+.p-bigxl {
+	font-weight: var(--lght);
+	font-size: var(--tbigx);
+}
+.p-bigb {
+	font-weight: var(--bold);
+	font-size: var(--tbig);
+}
+.p-bigl {
+	font-weight: var(--lght);
+	font-size: var(--tbig);
+}
+.p-midb {
+	font-weight: var(--bold);
+	font-size: var(--tmid);
+}
+.p-midl {
+	font-weight: var(--lght);
+	font-size: var(--tmid);
+}
+.p-smlb {
+	font-weight: var(--bold);
+	font-size: var(--tsml);
+}
+.p-smll {
+	font-weight: var(--lght);
+	font-size: var(--tsml);
+}
+.p-smlx {
+	font-weight: var(--lght);
+	font-size: var(--tsmlx);
+}
+
+/* margin */
+.mg-big {
+	margin: var(--tbig);
+}
+.mg-sml {
+	margin: var(--tsml);
+}
+
+/* padding */
+.pd-big {
+	padding: var(--tsml) var(--tbig);
+}
+.pd-sml {
+	padding: var(--smlx) var(--tmid);
+}
