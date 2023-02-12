@@ -1,0 +1,26 @@
+.room-list li {
+    border-radius: 4px;
+}
+
+.room {
+    width: 100%;
+    height: calc(var(--tbigx) * 4);
+    background-color: var(--blck);
+    border-radius: 4px;
+    box-shadow: var(--blck) 0 4px 4px;
+}
+
+.room-banner {
+    height: 50%;
+    width: 100%;
+    background-color: var(--whit);
+    border-radius: 4px 4px 0 0;
+}
+
+.room-text {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    border-radius: 4px;
+}

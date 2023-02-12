@@ -33,6 +33,17 @@
 	margin: 1rem;
 }
 
+/* default */
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+	list-style-type: none;
+}
+
 /* color */
 .whit-color {
 	color: var(--whit);
@@ -89,6 +100,38 @@ button:hover {
 .btn-smlx {
 	font-size: var(--smlx);
 	padding: 1rem 3rem;
+}
+
+/* anchor */
+a {
+	border-radius: 4px;
+	color: var(--whit);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.a-big {
+	font-size: var(--tbig);
+	padding: 2rem 6rem;
+	box-shadow: #333333 0px 4px 4px;
+	transition: box-shadow ease-in-out 0.1s;
+}
+.a-mid {
+	font-size: var(--tmid);
+	padding: 2rem 6rem;
+	box-shadow: #333333 0px 4px 4px;
+	transition: box-shadow ease-in-out 0.1s;
+}
+.a-big:hover, .a-mid:hover{
+	box-shadow: none;
+}
+.a-sml {
+	font-size: var(--sml);
+	font-weight: var(--lght);
+}
+.a-smlx {
+	font-size: var(--smlx);
+	font-weight: var(--lght);
 }
 
 /* input */
@@ -155,6 +198,12 @@ p {
 }
 .mg-sml {
 	margin: var(--tsml);
+}
+.mg-cen {
+	margin: var(--tbigx) calc(var(--tbigx) * 5);
+}
+.mg-cenX {
+	margin: 0 calc(var(--tbigx) * 5);
 }
 
 /* padding */

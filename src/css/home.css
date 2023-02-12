@@ -1,0 +1,66 @@
+@import "globals.css";
+
+.top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.top-text {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-img {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.bot-buttons {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-buttons form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bot-contact {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-contact-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-contact-buttons a {
+    color: var(--whit);
+}
